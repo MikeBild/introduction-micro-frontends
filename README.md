@@ -1,12 +1,41 @@
 # Micro-Frontends in Practice
 
+## Prerequisites
+
+- Node.js LTE
+
+### Local
+
+- Start order
+  - Gateway
+  - Catalog
+  - GraphQL-API
+  - Home
+  - Docs
+  - Contact
+  - Catalog
+
+#### Setup
+
+Import initial documents using [Excel CouchDB import tool](https://github.com/MikeBild/excel-couchdb-import).
+
+```bash
+...
+```
+
+### Docker/Kubernetes Stack
+
+### Google Cloud Deployment
+
 ## Architecture
 
 ### Gateway
 
 Serves locally on http://localhost:7000
 
-- Simulate Service Discovery via file
+- Service-Discovery via File
+- Service-Discovery via Docker/Kubernetes
+- Service-Discovery via Google-Cloud API
 
 ### Home-App
 
